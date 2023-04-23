@@ -47,7 +47,7 @@ def generate_meal(restrictions):
         {'name': 'Shirataki Noodles with Tofu & Veggies', 'restrictions': ['nut-free', 'vegetarian'], 'video_url': 'https://www.youtube.com/embed/qkv_CxkdWB4'},
         {'name': 'The Ultimate Vegetarian Club Sandwhich', 'restrictions': ['vegetarian', 'nut-free'], 'video_url': 'https://www.youtube.com/embed/j5gg365Ewaw'},
         {'name': 'Crispy Smashed Potatoes', 'restrictions': ['vegetarian', 'nut-free', 'gluten-free'], 'video_url': 'https://www.youtube.com/embed/Ai_kivZXN9o'},
-        {'name': 'Creamy Sun-Dried Tomato and Spinach Pasta', 'restrictions': ['nut-free', 'vegetarian'], 'video_url': 'https://www.youtube.com/embed/ll-FAFOVNVk'},#
+        {'name': 'Creamy Sun-Dried Tomato and Spinach Pasta', 'restrictions': ['nut-free', 'vegetarian'], 'video_url': 'https://www.youtube.com/embed/ll-FAFOVNVk'},
         {'name': 'Spinach & Artichoke Dip Pasta', 'restrictions': ['nut-free', 'vegetarian'], 'video_url': 'https://www.youtube.com/embed/MS1eAjcp2HU?start=10'}
     ]
 
