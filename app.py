@@ -31,6 +31,13 @@ def meal():
         return render_template('meal.html', meal=meal['name'], video_url=meal['video_url'])
     
 
+@app.route('/new_meal', methods=['GET', 'POST'])
+def new_meal():
+    if request.method == 'POST':
+        restrictions = request.form.getlist('restrictions')
+        meal = generate_meal(restrictions)
+        return render_template('meal.html', meal=meal['name'], video_url=meal['video_url'])
+
 def generate_meal(restrictions):
     meals = [
         {'name': 'Grilled salmon with asparagus', 'restrictions': ['gluten-free', 'nut-free'], 'video_url': 'https://www.youtube.com/embed/Kdq3khk_8n0'},
